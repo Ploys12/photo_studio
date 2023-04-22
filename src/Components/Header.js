@@ -5,6 +5,7 @@ class Header extends React.Component{
         return (<header>
             <div>
                 <img className="logo" src={this.props.src} alt=""></img>
+                <span className="favorite_moments">Любимые моменты</span>
                 <ul className="nav">
                     <li>Главная</li>
                     <li>Контакты</li>
