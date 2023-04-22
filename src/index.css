@@ -29,6 +29,35 @@ header .logo {
     
     
 }
+header .inner div {
+    display: inline-flex;
+    position: relative;
+    top: 10px;
+    right: 70px;
+    width: 70px;
+    height: 2px;
+}
+
+header .inner .home.active{
+    right: 72px;
+    background-color: red;
+}
+header .inner .contacts_open.active {
+    position: relative;
+    
+    right: 80px;
+    background-color: red;
+}
+header .inner .service.active {
+    right: 68px;
+    background-color: red;
+}
+header .inner .about_us.active{
+    right: 62px;
+    background-color: red;
+}
+
+
 header .logo:hover{
     opacity: 0.8;
 }
