@@ -10,118 +10,105 @@
 }
 body {
     background-color: #f0e5cc;
-    
+    font-size: 20px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 
 }
+
+
+.wrapper {
+    width: 1200px;
+    margin: 50px auto;
+}
+
 header {
-    color: #3b3b3b;
     position: relative;
 }
 
-header .logo {
+header .logo{
     width: 100px;
-    position: absolute;
-    left: 100px;
-    cursor: pointer;
-    transition: opacity 0.5s ease-in;
+    margin-top: -50px;
+    padding: 0;
+    color: #f0e5cc;
+    transition: all 1s;
+}
+
+header::before{
     
-    
-}
-header .inner div {
-    display: inline-flex;
-    position: relative;
-    top: 10px;
-    right: 70px;
-    width: 70px;
-    height: 2px;
-}
-
-header .inner .home.active{
-    right: 72px;
-    background-color: red;
-}
-header .inner .contacts_open.active {
-    position: relative;
-    
-    right: 80px;
-    background-color: red;
-}
-header .inner .service.active {
-    right: 68px;
-    background-color: red;
-}
-header .inner .about_us.active{
-    right: 62px;
-    background-color: red;
-}
-
-
-header .logo:hover{
-    opacity: 0.8;
-}
-
-header .favorite_moments{
-    color: #393939;
-    font-size: 22px; 
-    position: absolute;
-    left: 11%;
-    padding-top: 50px;
     font-family: Behrens KursivC;
-    cursor: pointer;
-
+    content: "Лучшие моменты";
+    position: absolute;
+    
+    left: 90px;
+    color: #474645;
+    
+    font-size: 25px;
+    font-weight: 300;
 }
-
-
+header::before:hover{
+    color: black;
+}
 
 header ul.nav{
-    font-size: 18px;
-    position: relative;
-    margin-right: 125px;
-    margin-top: 55px;
-    list-style: none;
+    display: flex;
     float: right;
+    list-style: none;
 }
 
-
 header ul.nav li {
-    display: inline;
+    
     margin-left: 25px;
     cursor: pointer;
     transition: opacity 500ms ease-in;
 }
-header ul.nav li:hover{
+
+header ul.nav li:hover {
+    opacity: 0.5;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header .logo:hover{
     opacity: 0.7;
 }
 
 header .presentation{
-    position: absolute;
-    border-radius: 12%;
-    background: url(./img/presentation.jpg);
+    border-radius: 8%;
+    margin: 10px 0;
+    background: url('img/presentation.jpg');
     width: 100%;
     height: 700px;
-    margin-top: 130px;
-    background-position: center center;
     background-repeat: no-repeat;
-    background-color: #f0e5cc;
-
+    background-position: center center;
+    position: relative;
+    background-blend-mode: multiply;
+    background-size: cover;
 }
 
 header .presentation::after{
     position: absolute;
     content: "Лучшие моменты передаются фотографией";
-    top: 130px;
-    left: 150px;
-    width: 250px;
+    top: 250px;
+    left: 60px;
+    color: #fff;
+    width: 200px;
     font-size: 40px;
     font-weight: 600;
-    color: #fff;
 }
+
+
+
+
+
 
 
 footer {
-    position: absolute;
-    top: 100%;
-    left: 50%;
+    text-align: center;
+    margin-top: 100px;
 }
+

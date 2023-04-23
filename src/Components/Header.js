@@ -11,16 +11,11 @@ class Header extends React.Component{
         }
     }
 
-
-    
-
-
-
     render(){
         return (<header>
             <div className="inner">
-                <img className="logo" src={this.props.src} alt=""></img>
-                <span className="favorite_moments">Любимые моменты</span>
+                <img className="logo" src={this.props.src} alt="logo"></img>
+                
                 <ul className="nav">
                     <li onClick={() => {
                         this.setState({
