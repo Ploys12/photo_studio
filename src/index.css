@@ -37,7 +37,7 @@ header .logo{
 header::before{
     
     font-family: Behrens KursivC;
-    content: "Лучшие моменты";
+    content: "Любимые моменты";
     position: absolute;
     
     left: 90px;
@@ -171,6 +171,12 @@ header .presentation::after{
     transition: all ease 1s;
     
 }
+
+.feedback{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
 button{
     position: relative;
     bottom: 80px;
@@ -188,6 +194,6 @@ button:hover{
 
 footer {
     text-align: center;
-    margin-top: 10px;
+    margin-top: 100px;
 }
 
