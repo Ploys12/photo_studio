@@ -29,7 +29,7 @@ class Our_Job extends React.Component{
                 if (this.offset < 0){
                     this.offset = 3600
                 }
-                console.log(this.offset)
+                
                 document.getElementById('slider-line').style.left = -this.offset + "px"
             }}></button>
             <button id="slider-next" onClick={() => {
@@ -37,7 +37,7 @@ class Our_Job extends React.Component{
                 if (this.offset >= 4800){
                     this.offset = 0
                 }
-                console.log(this.offset)
+                
                 document.getElementById('slider-line').style.left = -this.offset + "px"
             }}></button>
         </div>)

@@ -7,6 +7,7 @@ import Second from './img/third.jpg'
 import Third from './img/fourth.jpg'
 import Fourth from './img/fiveth.jpg'
 import Our_Job from './Components/Our_Job';
+import Feedback from './Components/Feedback';
 import logo from './img/logo.png'
 
 
@@ -18,7 +19,7 @@ class App extends React.Component{
     return (<div className='wrapper'>
       <Header src={logo}/>
       <Our_Job first={First} second={Second} third={Third} fourth={Fourth} alt="photo"/>
-      
+      <Feedback/>
       <Footer/>
     </div>)
   }
