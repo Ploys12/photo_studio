@@ -103,9 +103,75 @@ header .presentation::after{
 
 
 
+.our_job {
+    border-radius: 3%;
+    
+    height: 4000px;
+    
+    margin-top: 50px;
+    text-align: center;
+    font-size: 45px;
+}
+
+.active {
+    background-color: red;
+    width: 70px;
+    height: 3px;
+
+}
+.home.active{
+    margin-top: 25px;
+    position: absolute;
+    left: 69%;
+    
+}
+.contacts_open.active{
+    width: 75px;
+    margin-top: 25px;
+    position: absolute;
+    left: 78%;
+}
+
+.service.active{
+    width: 60px;
+    position: absolute;
+    margin-top: 25px;
+    left: 87.5%;
+}
 
 
+.about_us.active{
+    width: 55px;
+    position: absolute;
+    margin-top: 25px;
+    left: 95.3%;
 
+}
+
+
+.slider{
+    
+    margin: 30px auto;
+    
+}
+
+.slider img{
+    border-radius: 2%;
+    height: 800px;
+    width: 1200px;
+}
+
+#slider-line{
+    display: flex;
+    position: relative;
+    height: 800px;
+    width: 4800px;
+    
+}
+button {
+    width: 100px;
+    background-color: rgb(132, 0, 248);
+}
 
 footer {
     text-align: center;
