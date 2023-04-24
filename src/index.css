@@ -261,6 +261,14 @@ header .presentation::after{
      
 }
 
+.scroller{
+    
+    color: rgb(251, 251, 251);
+    position: absolute;
+    bottom: 180px;
+    left: 150px;
+}
+
 .feedback_div{
     margin-top: 25px;
     width: 1200px;

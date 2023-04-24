@@ -10,6 +10,9 @@ class Feedback extends React.Component{
                 
                 </img>
                 <p className="trust_us">Нам доверяют</p>
+                <div className="scroller" onClick={() => {
+                    window.scrollTo( {top: 2800, behavior: "smooth"} )
+                }}>&darr;&darr;&darr;</div>
                 
                 
                 
