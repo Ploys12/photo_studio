@@ -339,7 +339,28 @@ header .presentation::after{
 .family_image:hover{
     transform: scale(1.07);
 }
+.main_nav{
+    position: absolute;
+    z-index: 3;
+    left: 900px;
+    top: 590px;
+    
 
+}
+
+.main_nav h2 {
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    opacity: 0.6;
+    transition: all 1s ease;
+    
+}
+
+.main_nav h2:hover{
+    opacity: 1;
+    
+}
 .description{
     
     margin-top: 15px;
