@@ -261,6 +261,87 @@ header .presentation::after{
      
 }
 
+.feedback_div{
+    margin-top: 25px;
+    width: 1200px;
+    height: 1300px;
+    /* background: #f0e5cc; */
+    background: #f0e5cc;
+    border-radius: 3%;
+    position: relative;
+}
+
+.feedback_item{
+    width: 1150px;
+    height: 1250px;
+    left: 25px;
+    background: #f0e5cc;
+    position: absolute;
+    top: 25px;
+    border-radius: 3%;
+}
+
+
+
+.item {
+    width: 400px;
+    height: 550px;
+    border-radius: 3%;
+    background-color: rgb(184, 180, 184);
+    transition: all 1s ease;
+}
+
+.item:hover{
+    background: #f0e5cc;
+}
+.item.first{
+    position: absolute;
+    left: 750px;
+    top: 40px;
+}
+.item.second{
+    position: absolute;
+    top: 40px;
+    
+}
+.item.third{
+    position: absolute;
+    bottom: 50px;
+    left: 600px;
+}
+.item.fourth{
+    position: absolute;
+    bottom: 50px;
+    left: 170px;
+}
+
+.item p.family_text{
+    width: 150px;
+    margin-left: 70px;
+}
+
+.family_image{
+    margin-top: 10px;
+    width: 240px;
+    border-radius: 100%;
+    transition: all 0.5s ease;
+    
+}
+
+.family_image:hover{
+    transform: scale(1.07);
+}
+
+.description{
+    
+    margin-top: 15px;
+    font-size: 22px;
+    transition: all 1s ease-in;
+    
+    font-weight: 500;
+}
+
+
 
 
 
