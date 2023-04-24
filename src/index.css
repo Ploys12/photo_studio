@@ -265,7 +265,7 @@ header .presentation::after{
     
     color: rgb(251, 251, 251);
     position: absolute;
-    bottom: 180px;
+    bottom: 100px;
     left: 150px;
 }
 
