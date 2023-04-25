@@ -16,7 +16,7 @@ import fourth_family from './img/fourth_family.jpg'
 import logo from './img/logo.png'
 
 
-setInterval(()  => {console.log(document.location.href)}, 3000)
+
 
 
 class App extends React.Component{
