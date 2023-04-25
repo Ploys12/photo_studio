@@ -248,6 +248,7 @@ header .presentation::after{
     background: none;
     opacity: 0.83;
     transition: 0.5s all ease;
+    z-index: 1000;
     
 }
 
@@ -262,10 +263,11 @@ header .presentation::after{
 }
 
 .scroller{
+    height: 300px;
     
     color: rgb(251, 251, 251);
     position: absolute;
-    bottom: 100px;
+    bottom: 210px;
     left: 150px;
 }
 
